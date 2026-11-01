@@ -7,12 +7,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Timandilu/obsidian-heading-scroller.git"
+    "url": "git+https://github.com/timonwendland/obsidian-heading-scroller.git"
   },
   "bugs": {
-    "url": "https://github.com/Timandilu/obsidian-heading-scroller/issues"
+    "url": "https://github.com/timonwendland/obsidian-heading-scroller/issues"
   },
-  "homepage": "https://github.com/Timandilu/obsidian-heading-scroller#readme",
+  "homepage": "https://github.com/timonwendland/obsidian-heading-scroller#readme",
   "scripts": {
     "build": "tsc --noEmit && node esbuild.config.mjs",
     "format": "prettier --write src tests styles.css *.json *.md *.mjs",
