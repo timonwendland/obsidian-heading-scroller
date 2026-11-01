@@ -118,7 +118,10 @@ export class HeadingScroller {
 
     this.panel.setAttribute("role", "navigation");
     this.panel.setAttribute("aria-label", "Table of contents");
-    this.panel.createDiv({ cls: "heading-scroller__eyebrow", text: "INHALTE" });
+    this.panel.createDiv({
+      cls: "heading-scroller__eyebrow",
+      text: "CONTENTS",
+    });
     const outline = this.panel.createDiv({ cls: "heading-scroller__outline" });
 
     this.headings.forEach((heading, index) => {
